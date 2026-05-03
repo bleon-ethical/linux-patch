@@ -1375,3 +1375,120 @@ make[2]: *** Se espera a que terminen otras tareas....
   CC      arch/x86/kernel/cpu/sgx/encl.o
   CC [M]  arch/x86/kvm/i8254.o
   CC      arch/x86/kernel/cpu/sgx/ioctl.o
+  CC [M]  arch/x86/kvm/ioapic.o
+  CC      arch/x86/kernel/cpu/sgx/main.o
+  CC [M]  arch/x86/kvm/hyperv.o
+  CC      arch/x86/kernel/cpu/sgx/virt.o
+  AR      arch/x86/kernel/cpu/sgx/built-in.a
+  CC      arch/x86/kernel/cpu/perfctr-watchdog.o
+  CC      arch/x86/kernel/cpu/vmware.o
+  CC [M]  arch/x86/kvm/xen.o
+  CC      arch/x86/kernel/cpu/hypervisor.o
+  CC      arch/x86/kernel/cpu/mshyperv.o
+  CC [M]  arch/x86/kvm/smm.o
+  CC      arch/x86/kernel/cpu/debugfs.o
+  CC      arch/x86/kernel/cpu/bus_lock.o
+  CC [M]  arch/x86/kvm/kvm_onhyperv.o
+  CC      arch/x86/kernel/cpu/capflags.o
+  AR      arch/x86/kernel/cpu/built-in.a
+  CC [M]  arch/x86/kvm/vmx/vmx.o
+  CC      arch/x86/kernel/acpi/boot.o
+  CC      arch/x86/kvm/kvm-asm-offsets.s
+  CC [M]  arch/x86/kvm/vmx/pmu_intel.o
+  CC [M]  arch/x86/kvm/vmx/vmcs12.o
+  CC      arch/x86/kernel/acpi/sleep.o
+  CC [M]  arch/x86/kvm/vmx/nested.o
+  AS      arch/x86/kernel/acpi/wakeup_64.o
+  CC      arch/x86/kernel/acpi/apei.o
+  CC      arch/x86/kernel/acpi/cppc.o
+  CC      arch/x86/kernel/acpi/madt_wakeup.o
+  AS      arch/x86/kernel/acpi/madt_playdead.o
+  CC      arch/x86/kernel/acpi/cstate.o
+  AR      arch/x86/kernel/acpi/built-in.a
+  CC      arch/x86/kernel/reboot.o
+  CC [M]  arch/x86/kvm/vmx/posted_intr.o
+  CC      arch/x86/kernel/early-quirks.o
+  CC [M]  arch/x86/kvm/vmx/main.o
+  CC [M]  arch/x86/kvm/vmx/sgx.o
+  CC [M]  arch/x86/kvm/vmx/hyperv.o
+  CC      arch/x86/kernel/smp.o
+  CC      arch/x86/kernel/smpboot.o
+  CC [M]  arch/x86/kvm/vmx/hyperv_evmcs.o
+  CC [M]  arch/x86/kvm/vmx/vmx_onhyperv.o
+  CC [M]  arch/x86/kvm/svm/svm.o
+  CC      arch/x86/kernel/tsc_sync.o
+  CC      arch/x86/kernel/setup_percpu.o
+  CC      arch/x86/kernel/mpparse.o
+  CC      arch/x86/kernel/apic/apic.o
+  CC [M]  arch/x86/kvm/svm/pmu.o
+  CC [M]  arch/x86/kvm/svm/nested.o
+  CC      arch/x86/kernel/apic/apic_common.o
+  CC      arch/x86/kernel/apic/apic_noop.o
+  CC      arch/x86/kernel/apic/ipi.o
+  CC [M]  arch/x86/kvm/svm/avic.o
+  CC      arch/x86/kernel/apic/vector.o
+  CC [M]  arch/x86/kvm/svm/sev.o
+  CC      arch/x86/kernel/apic/init.o
+  CC      arch/x86/kernel/apic/hw_nmi.o
+  CC      arch/x86/kernel/apic/io_apic.o
+  CC      arch/x86/kernel/apic/msi.o
+  CC [M]  arch/x86/kvm/svm/hyperv.o
+  CC      arch/x86/kernel/apic/x2apic_phys.o
+  CC [M]  arch/x86/kvm/svm/svm_onhyperv.o
+  CC      arch/x86/kernel/apic/x2apic_cluster.o
+  CC      arch/x86/kernel/apic/apic_flat_64.o
+  LD [M]  arch/x86/kvm/kvm.o
+  CC      arch/x86/kernel/apic/probe_64.o
+  AR      arch/x86/kernel/apic/built-in.a
+  CC      arch/x86/kernel/ftrace.o
+  AS      arch/x86/kernel/ftrace_64.o
+  CC      arch/x86/kernel/trace_clock.o
+  CC      arch/x86/kernel/trace.o
+  CC      arch/x86/kernel/rethook.o
+  CC      arch/x86/kernel/vmcore_info_64.o
+  CC      arch/x86/kernel/machine_kexec_64.o
+  AS      arch/x86/kernel/relocate_kernel_64.o
+  CC      arch/x86/kernel/kexec-bzimage64.o
+  CC      arch/x86/kernel/crash_dump_64.o
+  CC      arch/x86/kernel/crash.o
+  CC      arch/x86/kernel/kprobes/core.o
+  CC      arch/x86/kernel/kprobes/opt.o
+  CC      arch/x86/kernel/kprobes/ftrace.o
+  AR      arch/x86/kernel/kprobes/built-in.a
+  CC      arch/x86/kernel/module.o
+  UPD     arch/x86/kvm/kvm-asm-offsets.h
+  AS [M]  arch/x86/kvm/vmx/vmenter.o
+  AS [M]  arch/x86/kvm/svm/vmenter.o
+  CC      arch/x86/kernel/early_printk.o
+  LD [M]  arch/x86/kvm/kvm-intel.o
+  LD [M]  arch/x86/kvm/kvm-amd.o
+  CC      arch/x86/kernel/hpet.o
+  CC      arch/x86/kernel/amd_nb.o
+  CC      arch/x86/kernel/amd_node.o
+  CC      arch/x86/kernel/kvm.o
+  CC      arch/x86/kernel/kvmclock.o
+  CC      arch/x86/kernel/paravirt.o
+  CC      arch/x86/kernel/paravirt-spinlocks.o
+  CC      arch/x86/kernel/pvclock.o
+  CC      arch/x86/kernel/pmem.o
+  CC      arch/x86/kernel/pcspeaker.o
+  CC      arch/x86/kernel/uprobes.o
+  CC      arch/x86/kernel/perf_regs.o
+  CC      arch/x86/kernel/itmt.o
+  CC      arch/x86/kernel/umip.o
+  CC      arch/x86/kernel/unwind_orc.o
+  CC      arch/x86/kernel/callthunks.o
+  CC      arch/x86/kernel/cet.o
+  CC      arch/x86/kernel/shstk.o
+  CC      arch/x86/kernel/audit_64.o
+  CC      arch/x86/kernel/amd_gart_64.o
+  CC      arch/x86/kernel/aperture_64.o
+  CC      arch/x86/kernel/mmconf-fam10h_64.o
+  CC      arch/x86/kernel/vsmp_64.o
+  CC [M]  arch/x86/kernel/msr.o
+  CC [M]  arch/x86/kernel/cpuid.o
+  LDS     arch/x86/kernel/vmlinux.lds
+  AR      arch/x86/kernel/built-in.a
+  AR      arch/x86/built-in.a
+make[1]: *** [/home/bleon/kernel/linux-7.0.3/Makefile:2105: .] Error 2
+make: *** [Makefile:248: __sub-make] Error 2
